@@ -12,13 +12,13 @@ export class AppComponent {
   result : number = 0;
 
   suma():void {
-    this.result = Number(this.numero1) + Number(this.numero2);
+    this.result = this.numero1 + this.numero2;
   }
   resta():void {
-    this.result = Number(this.numero1) - Number(this.numero2);
+    this.result = this.numero1 - this.numero2;
   }
   multiplicar():void {
-  this.result = Number(this.numero1) * Number(this.numero2);
+  this.result = this.numero1 * this.numero2;
   }
 
 }
