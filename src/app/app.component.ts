@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MiniCalculadora';
+  numero1: number= 0;
+  numero2: number = 0;
+  result : number = 0;
+
+  suma():void {
+    this.result = Number(this.numero1) + Number(this.numero2);
+  }
+  resta():void {
+    this.result = Number(this.numero1) - Number(this.numero2);
+  }
+  multiplicar():void {
+  this.result = Number(this.numero1) * Number(this.numero2);
+  }
+
 }
